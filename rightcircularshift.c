@@ -1,4 +1,4 @@
-// Program to perform LSR on an array.
+// Program to perform Right circular shift on an array.
 #include <stdio.h>
 int main() {
     int size = 0, i;
@@ -15,6 +15,7 @@ int main() {
         new[i] = array[(i-1)];
     }
     for(i = 0; i < size; i++) {
-        printf("%d\n", new[i]);
+        printf("%d", new[i]);
     }
+    printf("\n");
 }
